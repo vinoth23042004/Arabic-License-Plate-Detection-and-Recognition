@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🔍 Arabic License Plate Recognition System
 
 A computer vision-based system to detect and recognize **Arabic license plates** using a combination of YOLOv8 for object detection and Tesseract OCR for text extraction.
