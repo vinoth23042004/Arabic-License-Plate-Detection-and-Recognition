@@ -1,94 +1,123 @@
-# 🔍 Arabic License Plate Recognition System
+🔍 Arabic License Plate Recognition System
+A computer vision-based Python project designed to detect and recognize Arabic license plates using YOLOv8 for object detection and Tesseract OCR for text extraction. Ideal for smart surveillance systems, parking automation, and law enforcement applications.
 
-A computer vision-based system to detect and recognize **Arabic license plates** using a combination of YOLOv8 for object detection and Tesseract OCR for text extraction.
+🎥 Demo Video
+https://user-images.githubusercontent.com/demo-video-link/sample.mp4
 
-## 🚀 Project Overview
+📌 (Replace with your actual uploaded video GitHub link)
 
-This project implements an automatic number plate recognition (ANPR) system tailored for Arabic plates. The system uses a webcam or input image, detects the license plate using the YOLOv8 model, and then extracts the number using Tesseract OCR.
+🚀 Features
+🔎 Real-Time Detection – Detect Arabic license plates in real-time from webcam or images.
 
-## ✅ Features
+🧠 YOLOv8 Model – High-performance plate detection using Ultralytics YOLOv8.
 
-- 🔎 Real-time detection of Arabic license plates
-- 🧠 YOLOv8 for high-performance plate detection
-- 📝 Tesseract OCR integration for Arabic text recognition
-- 💡 OpenCV GUI to display results
-- 📷 Support for both live webcam input and static images
+📝 Tesseract OCR – Extract Arabic text accurately from detected plates.
 
-## 🛠️ Tech Stack
+💡 OpenCV GUI – Visual interface to show detection results live.
 
-- **Python 3.11**
-- **OpenCV**
-- **YOLOv8** (via Ultralytics)
-- **Tesseract OCR**
-- **Google Colab**
-- **NumPy**
+🖼️ Static Image Support – Works on pre-stored image inputs as well.
 
-## 🗃️ Folder Structure
-
-```
+🗃️ Folder Structure
+graphql
+Copy
+Edit
 Vinoth_LPR_Files/
-├── arabic_plate_detector.py          # Main script to detect and recognize plates
+├── arabic_plate_detector.py          # Main detection and recognition script
 ├── dataset/
-│   └── data.yaml                     # YOLO training data configuration
-├── runs/                             # Output from YOLO training
-├── weights/                          # Trained YOLOv8 model weights
-├── utils/                            # Helper functions (image pre-processing etc.)
-├── LICENSE                           # Optional license file
-└── README.md                         # Project README
-```
+│   └── data.yaml                     # YOLO training configuration file
+├── runs/                             # YOLO training output folder
+├── weights/                          # YOLOv8 trained weights
+├── utils/                            # Image preprocessing and helper functions
+├── LICENSE                           # License info (MIT)
+└── README.md                         # Project documentation
+🛠️ Tech Stack
+Technology	Purpose
+Python 3.11	Core programming language
+OpenCV	Image processing and display
+YOLOv8	Object detection (Ultralytics)
+Tesseract	OCR engine for text extraction
+NumPy	Numerical computation
+Google Colab	Model training and testing platform
 
-## 🧪 Setup Instructions
+📦 Requirements
+Create a requirements.txt file with the following content:
 
-1. **Clone the repository**:
+Copy
+Edit
+opencv-python
+numpy
+pytesseract
+ultralytics
+Install all dependencies using:
 
-\`\`\`bash
+bash
+Copy
+Edit
+pip install -r requirements.txt
+🖥️ How to Run
+Clone the Repository
+
+bash
+Copy
+Edit
 git clone https://github.com/yourusername/arabic-lpr.git
 cd arabic-lpr
-\`\`\`
+Install Dependencies
 
-2. **Install dependencies**:
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Install Tesseract OCR
 
-\`\`\`bash
-pip install opencv-python numpy pytesseract ultralytics
-\`\`\`
+Windows: Download from UB Mannheim
 
-3. **Install Tesseract OCR**:
+Linux:
 
-- For Windows: https://github.com/UB-Mannheim/tesseract/wiki
-- For Linux:
-
-\`\`\`bash
+bash
+Copy
+Edit
 sudo apt install tesseract-ocr
-\`\`\`
+Run the Application
 
-4. **(Optional) Train the YOLOv8 model**:
-
-\`\`\`bash
-yolo task=detect mode=train model=yolov8s.pt data=dataset/data.yaml epochs=50 imgsz=640 batch=16 device=0
-\`\`\`
-
-## 🖥️ Run the Project
-
-\`\`\`bash
+bash
+Copy
+Edit
 python arabic_plate_detector.py
-\`\`\`
+Quit Webcam Feed
+Press q to exit the OpenCV stream.
 
-- Press **'q'** to quit the webcam stream.
+📚 Use Cases
+Smart Traffic Surveillance
 
-## 🧪 Sample Output
+Arabic Plate Parking Management
 
-| Input Frame | Detection Output |
-|-------------|------------------|
-| ![Sample](path/to/input.png) | ![Result](path/to/output.png) |
+Automated Toll Collection
 
-> 📌 **Output**: The recognized plate number will be printed and displayed on the frame.
+Law Enforcement & Vehicle Tracking
 
-## 👨‍💻 Author
+📌 Future Enhancements
+Add voice feedback for recognized numbers
 
-**Vinoth Kumar**  
-[LinkedIn](https://www.linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+Integrate with cloud for plate logging
 
-## 📜 License
+Add multi-language OCR support
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-EOF
+Deploy as a web or mobile application
+
+👨‍💻 Author
+Vinoth Kumar
+LinkedIn • GitHub
+
+📜 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+Let me know if you'd like a version with markdown preview links or image placeholder fixes!
+
+
+
+
+
+
+
+
