@@ -117,7 +117,7 @@ python arabic_plate_detector.py
 
 | Input Frame | Detection Output |
 |-------------|------------------|
-| ![Sample](test_image.jpg) | ![Result](output_image.PNG) |
+| ![Sample](https://raw.githubusercontent.com/vinoth23042004/Arabic-License-Plate-Detection-and-Recognition/refs/heads/main/assests/test_image.jpg) | ![Result](https://raw.githubusercontent.com/vinoth23042004/Arabic-License-Plate-Detection-and-Recognition/refs/heads/main/assests/output_image.PNG) |
 
 > 📌 **Output**: The recognized plate number will be printed and displayed on the frame.
 
