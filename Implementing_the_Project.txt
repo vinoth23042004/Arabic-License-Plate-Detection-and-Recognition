@@ -1,0 +1,5 @@
+You should run the Python files in the Detection, Recognition, and Test_Final_Model folders separately in Google Colab.
+
+Make sure to change the runtime to T4 GPU in Colab before running the code.
+
+Before executing the scripts, upload all the required files into their respective folders and follow the instructions provided in the comments.
