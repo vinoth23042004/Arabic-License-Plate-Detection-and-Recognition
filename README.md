@@ -23,6 +23,8 @@ This project implements an automatic number plate recognition (ANPR) system tail
 - **Google Colab**
 - **NumPy**
 
+## 🗃️ Folder Structure
+
 \`\`\`
 Vinoth_LPR_Files/
 ├── arabic_plate_detector.py          # Main script to detect and recognize plates
