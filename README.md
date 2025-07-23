@@ -1,13 +1,6 @@
-# 🔍 Arabic License Plate Detection and Recognition
+# 🔍 Arabic License Plate Recognition System
 
 A computer vision-based Python project designed to detect and recognize **Arabic license plates** using YOLOv8 for object detection and Tesseract OCR for text extraction. Ideal for smart surveillance systems, parking automation, and law enforcement applications.
-
----
-
-## 🎥 Demo Video
-
-https://user-images.githubusercontent.com/demo-video-link/sample.mp4  
-> 📌 *(Replace with your actual uploaded video GitHub link)*
 
 ---
 
@@ -124,7 +117,7 @@ python arabic_plate_detector.py
 
 | Input Frame | Detection Output |
 |-------------|------------------|
-| ![Sample](path/to/input.png) | ![Result](path/to/output.png) |
+| ![Sample](test_image.jpg) | ![Result](output_image.PNG) |
 
 > 📌 **Output**: The recognized plate number will be printed and displayed on the frame.
 
@@ -137,15 +130,6 @@ python arabic_plate_detector.py
 - Multi-language OCR support  
 - Web/mobile deployment
 
----
 
-## 👨‍💻 Author
 
-**Vinoth Kumar**  
-[LinkedIn](https://www.linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername)
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
