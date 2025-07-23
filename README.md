@@ -25,7 +25,7 @@ This project implements an automatic number plate recognition (ANPR) system tail
 
 ## 🗃️ Folder Structure
 
-\`\`\`
+```
 Vinoth_LPR_Files/
 ├── arabic_plate_detector.py          # Main script to detect and recognize plates
 ├── dataset/
@@ -35,7 +35,7 @@ Vinoth_LPR_Files/
 ├── utils/                            # Helper functions (image pre-processing etc.)
 ├── LICENSE                           # Optional license file
 └── README.md                         # Project README
-\`\`\`
+```
 
 ## 🧪 Setup Instructions
 
