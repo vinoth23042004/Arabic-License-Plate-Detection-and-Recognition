@@ -23,19 +23,16 @@ This project implements an automatic number plate recognition (ANPR) system tail
 - **Google Colab**
 - **NumPy**
 
-## 📁 Folder Structure
-
 \`\`\`
 Vinoth_LPR_Files/
-│
-├── arabic_plate_detector.py     # Main detection script
-├── dataset/                     # Custom labeled dataset
-│   └── data.yaml                # YOLO format config
-├── runs/                        # YOLO training output
-├── weights/                     # Trained YOLOv8 model
-├── utils/                       # Helper functions (image preprocess, etc.)
-├── LICENSE                      # Optional license
-└── README.md                    # This file
+├── arabic_plate_detector.py          # Main script to detect and recognize plates
+├── dataset/
+│   └── data.yaml                     # YOLO training data configuration
+├── runs/                             # Output from YOLO training
+├── weights/                          # Trained YOLOv8 model weights
+├── utils/                            # Helper functions (image pre-processing etc.)
+├── LICENSE                           # Optional license file
+└── README.md                         # Project README
 \`\`\`
 
 ## 🧪 Setup Instructions
